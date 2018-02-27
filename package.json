@@ -6,12 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
-    "html": "find ./src -name '*.html' -type f -exec cp --parents {} ./dist \\;",
+    "html":
+      "find ./src -name '*.html' -type f -exec cp --parents {} ./dist \\;",
     "build": "npm run clean && tsc && npm run html",
     "wp-build": "webpack --config webpack.config.js",
     "clean": "rimraf -- dist",
     "serve": "lite-server",
-    "demo" : "npm run build && npm run serve"
+    "demo": "npm run build && npm run serve"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +24,6 @@
     "rimraf": "^2.6.2",
     "ts-loader": "^3.1.1",
     "tslint": "^5.5.0",
-    "typescript": "^2.6.0",
-    "webpack": "^3.3.0"
+    "typescript": "^2.6.0"
   }
 }

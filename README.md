@@ -1,16 +1,16 @@
+Requirement:
 
+[NodeJS](https://nodejs.org/en/download/)
 
-Requirements:
+Get Started:
 
-Nodejs
-
-1. Dependency Installation 
+1. Dependency Installation
 
 ```
 npm i
 ```
 
-2. Compiling  (Typescript to JavaScript)
+2. Compiling (Typescript to JavaScript)
 
 ```
 npm run build
@@ -23,6 +23,7 @@ npm run serve
 ```
 
 Step 2 and 3 can be combined by simply executing
+
 ```
 npm run demo
 ```
